@@ -1,0 +1,12 @@
+[08-Nov-2025 13:35:11 UTC] PHP Fatal error:  Uncaught Error: Class "Dotenv\Dotenv" not found in /home/u6178854/evoting/import_dpt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/u6178854/evoting/import_dpt.php on line 7
+[08-Nov-2025 13:38:14 UTC] PHP Fatal error:  Uncaught Error: Class "Dotenv\Dotenv" not found in /home/u6178854/evoting/import_dpt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/u6178854/evoting/import_dpt.php on line 7
+[08-Nov-2025 15:36:34 UTC] PHP Fatal error:  Uncaught Error: Class "Config\Database" not found in /home/u6178854/evoting/import_dpt.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/u6178854/evoting/import_dpt.php on line 14

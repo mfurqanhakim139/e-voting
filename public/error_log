@@ -1,0 +1,271 @@
+[08-Nov-2025 13:34:56 UTC] PHP Fatal error:  Uncaught Error: Class "Dotenv\Dotenv" not found in /home/u6178854/evoting/public/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u6178854/evoting/public/index.php on line 9
+[08-Nov-2025 13:37:03 UTC] PHP Fatal error:  Uncaught Error: Class "Dotenv\Dotenv" not found in /home/u6178854/evoting/public/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/u6178854/evoting/public/index.php on line 9
+[08-Nov-2025 16:16:20 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:16:20 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:16:21 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:16:21 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:16:22 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:16:22 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:16:22 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:16:22 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:17:25 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:17:49 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:17:55 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:17:57 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:18:02 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:18:02 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:18:03 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:18:03 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:18:03 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:18:04 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:18:04 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:18:05 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 16:18:05 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/u6178854/evoting/public/index.php on line 89
+[08-Nov-2025 23:19:51 Asia/Jakarta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active (started from /home/u6178854/evoting/public/index.php on line 3) in /home/u6178854/evoting/templates/voter/vote.php on line 3
+[09-Nov-2025 12:49:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Ugkmb\Evoting\Controllers\Admin\ElectionController" not found in /home/u6178854/evoting/public/index.php:130
+Stack trace:
+#0 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#1 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#4 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#5 {main}
+  thrown in /home/u6178854/evoting/public/index.php on line 130
+[09-Nov-2025 12:58:46 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:48 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:50 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:51 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:51 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:52 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:52 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:52 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:53 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:53 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:55 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:58:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:59:11 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:59:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:59:11 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:59:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:59:13 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:59:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:59:16 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 12:59:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/index.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:26
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(130): Ugkmb\Evoting\Controllers\Admin\ElectionController->index()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:130}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 26
+[09-Nov-2025 13:13:08 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/form.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 35
+[09-Nov-2025 13:13:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/Admin/../../../templates/admin/elections/form.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php:35
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(131): Ugkmb\Evoting\Controllers\Admin\ElectionController->create()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:131}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ElectionController.php on line 35
+[09-Nov-2025 13:30:59 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/u6178854/evoting/src/Controllers/Admin/ResultController.php:88
+Stack trace:
+#0 /home/u6178854/evoting/src/Controllers/Admin/ResultController.php(88): PDOStatement->execute()
+#1 /home/u6178854/evoting/src/Controllers/Admin/ResultController.php(31): Ugkmb\Evoting\Controllers\Admin\ResultController->getResultsData()
+#2 /home/u6178854/evoting/public/index.php(174): Ugkmb\Evoting\Controllers\Admin\ResultController->show()
+#3 [internal function]: {closure:/home/u6178854/evoting/public/index.php:173}()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#5 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#6 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#7 /home/u6178854/evoting/public/index.php(189): Bramus\Router\Router->run()
+#8 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/Admin/ResultController.php on line 88
+[09-Nov-2025 13:52:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Ugkmb\Evoting\Controllers\VoteController::showEventSelectionPage() in /home/u6178854/evoting/public/index.php:82
+Stack trace:
+#0 [internal function]: {closure:/home/u6178854/evoting/public/index.php:82}()
+#1 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#4 /home/u6178854/evoting/public/index.php(121): Bramus\Router\Router->run()
+#5 {main}
+  thrown in /home/u6178854/evoting/public/index.php on line 82
+[09-Nov-2025 13:53:54 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/../../templates/voter/select_event.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/VoteController.php on line 34
+[09-Nov-2025 13:53:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/../../templates/voter/select_event.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/VoteController.php:34
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(82): Ugkmb\Evoting\Controllers\VoteController->showEventSelectionPage()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:82}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(121): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/VoteController.php on line 34
+[09-Nov-2025 13:53:54 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/../../templates/voter/select_event.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/VoteController.php on line 34
+[09-Nov-2025 13:53:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/../../templates/voter/select_event.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/VoteController.php:34
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(82): Ugkmb\Evoting\Controllers\VoteController->showEventSelectionPage()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:82}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(121): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/VoteController.php on line 34
+[09-Nov-2025 13:53:55 Asia/Jakarta] PHP Warning:  require_once(/home/u6178854/evoting/src/Controllers/../../templates/voter/select_event.php): Failed to open stream: No such file or directory in /home/u6178854/evoting/src/Controllers/VoteController.php on line 34
+[09-Nov-2025 13:53:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/u6178854/evoting/src/Controllers/../../templates/voter/select_event.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u6178854/evoting/src/Controllers/VoteController.php:34
+Stack trace:
+#0 /home/u6178854/evoting/public/index.php(82): Ugkmb\Evoting\Controllers\VoteController->showEventSelectionPage()
+#1 [internal function]: {closure:/home/u6178854/evoting/public/index.php:82}()
+#2 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(458): call_user_func_array()
+#3 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(440): Bramus\Router\Router->invoke()
+#4 /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php(287): Bramus\Router\Router->handle()
+#5 /home/u6178854/evoting/public/index.php(121): Bramus\Router\Router->run()
+#6 {main}
+  thrown in /home/u6178854/evoting/src/Controllers/VoteController.php on line 34
+[14-Jan-2026 22:44:35 Asia/Jakarta] PHP Warning:  Undefined array key "PUT" in /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php on line 292
+[14-Jan-2026 22:44:36 Asia/Jakarta] PHP Warning:  Undefined array key "PUT" in /home/u6178854/evoting/vendor/bramus/router/src/Bramus/Router/Router.php on line 292
